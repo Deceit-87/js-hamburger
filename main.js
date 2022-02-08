@@ -18,7 +18,7 @@
 
 let openButton = document.querySelector('.header-right > a');
 
-openButton.classList.add('open');
+
 
 let closeButton = document.querySelector('.close');
 // console.log(openButton);
