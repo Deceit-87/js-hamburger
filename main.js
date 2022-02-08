@@ -23,16 +23,19 @@ let openButton = document.querySelector('.header-right > a');
 let closeButton = document.querySelector('.close');
 // console.log(openButton);
 
+
+let hamburgerMenu = document.querySelector('.hamburger-menu');
+
 openButton.onclick =function() {
-    let hamburgerMenu = document.querySelector('.hamburger-menu');
     hamburgerMenu.classList.add("active");
+
+
     
     // console.log('event')
 }
 
 
 closeButton.onclick =function() {
-    let hamburgerMenu = document.querySelector('.hamburger-menu');
     hamburgerMenu.classList.remove("active");
     
     // console.log('event')
