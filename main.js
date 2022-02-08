@@ -9,10 +9,29 @@
 
 
 
+
+
+
+
+
+
+
 let openButton = document.querySelector('.header-right > a');
-let openButton = document.querySelector('.header-right > a');
+openButton.classList.add('open');
+let closeButton = document.querySelector('.close');
 console.log(openButton);
 
 openButton.onclick =function() {
+    let hamburgerMenu = document.querySelector('.hamburger-menu');
+    hamburgerMenu.classList.add("active");
+    
+    console.log('event')
+}
+
+
+closeButton.onclick =function() {
+    let hamburgerMenu = document.querySelector('.hamburger-menu');
+    hamburgerMenu.classList.remove("active");
+    
     console.log('event')
 }
