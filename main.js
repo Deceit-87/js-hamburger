@@ -27,12 +27,19 @@ let closeButton = document.querySelector('.close');
 let hamburgerMenu = document.querySelector('.hamburger-menu');
 
 openButton.onclick =function() {
-    hamburgerMenu.classList.add("active");
+    hamburgerMenu.classList.add("active");}
 
+
+    // onclick si puo aggiungere solo un eventlistener 
+
+    openButton.addEventListener('click', function(){
+
+    }
+//  addEventListener puoi aggiungere piu eventi 
 
     
     // console.log('event')
-}
+
 
 
 closeButton.onclick =function() {
